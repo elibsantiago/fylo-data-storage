@@ -21,7 +21,7 @@ body {
     font-family: 'Raleway', sans-serif;
     width: 100vw;
     height: 100vh;
-    background-image: url(images/bg-mobile.png);
+    background-image: url(../images/bg-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -152,9 +152,14 @@ body {
     display: none;
 }
 
+.attribution {
+    bottom: 10%;
+    color: white;
+}
+
 @media screen and (min-width: 1110px) {
     body {
-        background-image: url(images/bg-desktop.png);
+        background-image: url(../images/bg-desktop.png);
         background-size: contain;
         background-position-y: bottom;
         background-color: var(--very-blue);
@@ -183,6 +188,11 @@ body {
 
     .descreption {
         text-align: left;
+    }
+
+    .attribution {
+        position: absolute;
+        text-align: center;              
     }
 
     .floating-msg-container {
